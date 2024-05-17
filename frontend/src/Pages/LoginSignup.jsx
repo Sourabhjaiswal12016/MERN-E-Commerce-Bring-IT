@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./CSS/LoginSignup.css";
 const LoginSignup = () => {
   const [state, setState] = useState("Login");
-  const serverUrl = process.env.REACT_APP_SERVER_URL;
-  console.log(serverUrl);
+  // const serverUrl = process.env.REACT_APP_SERVER_URL;
+  // console.log(serverUrl);
   const [formData, setFormData] = useState({
     username: "",
     password: "",
