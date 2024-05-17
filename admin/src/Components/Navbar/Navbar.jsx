@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="second-things">
         <button
           className="back-to-store-btn"
-          onClick={() => (window.location.href = "#")}
+          onClick={() => (window.location.href = "https://mern-ecom-tau.vercel.app/")}
         >
           Back to Shop Site
         </button>
