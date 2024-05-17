@@ -86,7 +86,7 @@ const Navbar = () => {
           </Link>
         )}
 
-        <button onClick={() => (window.location.href = "#")}>Admin</button>
+        <button onClick={() => (window.location.href = "https://mern-ecom-7hi8.vercel.app/")}>Admin</button>
 
         <Link to="/cart">
           <img src={cart_icon} alt="" />
