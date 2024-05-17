@@ -30,7 +30,7 @@ const AddProduct = () => {
     formData.append("product", image);
     //now formData has been created now we need to send this data to our API: using fetchAPI--
 
-    await fetch("http://localhost:4000/upload", {
+    await fetch("https://mern-ecom-n5bq.onrender.com/upload", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -47,7 +47,7 @@ const AddProduct = () => {
       console.log(product);
       //console.log("fetch karne ja rha add product wala")
       //after succesful upload we arre sending our image to add product:-
-      await fetch("http://localhost:4000/addproduct", {
+      await fetch("https://mern-ecom-n5bq.onrender.com/addproduct", {
         method: "POST",
         headers: {
           Accept: "application/json",
