@@ -26,7 +26,7 @@ app.use(cors()); //using this our react app will connect to express.js on "PORT:
 
 //Database connection with MongoDB
 mongoose.connect(
-  "mongodb+srv://ecomSourabh:ecom12016@cluster0.sg2wt5l.mongodb.net/e-commerce"
+  "mongodb+srv://vishalShop:shop120@cluster0.xysehtr.mongodb.net/e-commerce"
 );
 //after this mongoDB is connected to our express server:-
 
